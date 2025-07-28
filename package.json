@@ -1,0 +1,37 @@
+{
+  "name": "peassy-wallet",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Modern wallet tracking system built with Vue.js 3, Vuex, and Tailwind CSS",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.19",
+    "@heroicons/vue": "^2.1.5",
+    "vue": "^3.5.17",
+    "vue-router": "^4.3.0",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "vite": "^7.0.4"
+  },
+  "keywords": [
+    "vue",
+    "vuex",
+    "tailwindcss",
+    "wallet",
+    "ecommerce",
+    "frontend"
+  ],
+  "author": "Frontend Developer",
+  "license": "MIT"
+}
