@@ -249,10 +249,6 @@ const formatDate = (timestamp) => {
 }
 
 // Lifecycle
-onMounted(() => {
-  store.dispatch('wallet/initializeWallet')
-})
-
 // Reset to first page when transactions change
 watch(allTransactions, () => {
   currentPage.value = 1

@@ -14,6 +14,15 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue'
+import { useStore } from 'vuex'
 import Header from './components/layout/Header.vue'
 import ShoppingCart from './components/cart/ShoppingCart.vue'
+
+const store = useStore()
+
+onMounted(() => {
+  // Initialize wallet when app loads
+  store.dispatch('wallet/initializeWallet')
+})
 </script>

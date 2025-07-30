@@ -176,7 +176,7 @@
 </template>
 
 <script setup>
-import { computed, onMounted } from 'vue'
+import { computed } from 'vue'
 import { useStore } from 'vuex'
 
 const store = useStore()
@@ -196,8 +196,4 @@ const formatDate = (timestamp) => {
     minute: '2-digit'
   })
 }
-
-onMounted(() => {
-  store.dispatch('wallet/initializeWallet')
-})
 </script> 
